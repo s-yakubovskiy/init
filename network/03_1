@@ -1,0 +1,1 @@
+networksetup -getinfo Wi-Fi | grep "Wi-Fi" | sed 's/Wi-Fi ID: //' | grep -E "\d.+"

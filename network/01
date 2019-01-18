@@ -1,0 +1,1 @@
+ifconfig | awk '{print $1} ' | grep '\d:' | sed 's/://g' | tr '\n' ' ' | sed 's/.$//'
