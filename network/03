@@ -1,1 +1,6 @@
-networksetup -getinfo Wi-Fi
+# 3. Identify the MAC address of the Wi-Fi card
+# networksetup -getinfo Wi-Fi
+
+networksetup -getinfo Wi-Fi | grep "Wi-Fi" | sed 's/Wi-Fi ID: //' | grep -E "\d.+"
+
+# networksetup -getmacaddress Wi-Fi

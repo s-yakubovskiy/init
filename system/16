@@ -1,0 +1,8 @@
+# 16. Find the service which makes it possible to run specific tasks following a regular schedule
+
+crontab -e
+
+# 9.7. Scheduling Tasks with cron and atd
+# cron is the daemon responsible for executing scheduled and recurring commands (every day, every week, etc.); atd is that which deals with commands to be executed a single time, but at a specific moment in the future.
+
+# https://crontab.guru/  << nice site | lot of info

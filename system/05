@@ -1,0 +1,8 @@
+# Name the command that determines the state of the SSH service
+
+systemctl status 
+
+# systemctl is-enabled ssh
+# systemctl is-active ssh
+
+#systemctl enbale ssh

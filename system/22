@@ -1,0 +1,7 @@
+# Find the command that add a new local user
+
+useradd <username>
+
+#useradd is native binary compiled with the system. But, adduser is a perl script which uses useradd binary in back-end.
+
+#adduser is more user friendly and interactive than its back-end  useradd. There's no difference in features provided.

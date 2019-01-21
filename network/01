@@ -1,1 +1,7 @@
+
+
+# 1. Get the list of the network interfaces of the machine without displaying any detail for these interfaces. Only the list of names.
+
 ifconfig | awk '{print $1} ' | grep '\d:' | sed 's/://g' | tr '\n' ' ' | sed 's/.$//'
+
+# ifconfig -l

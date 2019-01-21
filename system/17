@@ -1,0 +1,6 @@
+# 17. Find the command that allows you to connect via ssh on the VM.(In parallel with
+the graphic session)
+
+iptables -L -n -v
+
+# https://www.cyberciti.biz/tips/linux-iptables-examples.html

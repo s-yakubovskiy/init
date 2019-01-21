@@ -1,0 +1,20 @@
+# https://whatismyipaddress.com/nat
+# 11. Use the output of the previous command to find the name and IP address of the
+
+ 1  192.168.20.1 (192.168.20.1)  1.518 ms  1.174 ms  0.919 ms
+ 2  192.168.2.9 (192.168.2.9)  0.271 ms  0.207 ms  0.304 ms
+ 3  217-67-187-49.in-addr.mastertelecom.ru (217.67.187.49)  6.627 ms  6.672 ms  7.419 ms
+ 4  mail.neoresurs.ru (217.67.176.130)  0.416 ms  0.463 ms  0.433 ms
+ 5  217-67-176-205.in-addr.mastertelecom.ru (217.67.176.205)  1.029 ms  1.133 ms  0.992 ms
+ 6  ae11-227.rt.mr.msk.ru.retn.net (87.245.253.69)  0.748 ms  0.814 ms  0.705 ms
+ 7  ae5-8.rt.rad.hki.fi.retn.net (87.245.233.174)  15.323 ms  16.352 ms
+    ae2-5.rt.rad.hki.fi.retn.net (87.245.233.94)  15.746 ms
+ 8  52.46.167.62 (52.46.167.62)  25.501 ms  15.293 ms  15.474 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  server-13-32-56-36.hel50.r.cloudfront.net (13.32.56.36)  16.237 ms  16.006 ms  17.305 ms

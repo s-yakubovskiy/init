@@ -1,0 +1,5 @@
+# 8. Find the provider of slash16.org 
+# https://www.godaddy.com/garage/who-hosts-this-website-tips-and-tools-for-finding-ip-address-dns-details-and-more/
+
+whois slash16.org
+# whois slash16.org | grep -E Registrar: | sed 's/Registrar: //g'

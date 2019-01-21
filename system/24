@@ -1,0 +1,5 @@
+# Find the command that list all packages
+
+dpkg-query -l
+
+#dpkg-query -f '${binary:Package}\n' -W

@@ -1,0 +1,5 @@
+# 13. Thanks to the previous question and the reverse DNS find the name of your hostls
+
+nslookup $(ipconfig getifaddr en0) | grep -Eo "name =.+" | cut -d ' ' -f 3 | sed 's/.$//g'
+
+# hostname

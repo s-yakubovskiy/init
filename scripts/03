@@ -1,0 +1,10 @@
+#!/bin/bash
+
+name=$(whoami)
+printf "Hello \033[1;31m%s,\033[0m\n\tAlarm will be in \033[0;31m%d seconds\033[0m\n" $name $1
+
+sleep $1;
+for i in {1..8}; 
+	do afplay /System/Library/Sounds/Glass.aiff -v 8; 
+	echo 'TIMES UP!'; 
+done

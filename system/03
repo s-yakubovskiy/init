@@ -1,0 +1,6 @@
+# 3. Mke it permanent with this
+
+# or like that 
+# hostname new-name
+# echo "new-name" >> /etc/hostname
+# echo "127.0.1.1  new-name" >> /etc/hosts

@@ -1,0 +1,16 @@
+# 2. Write a script which delete an ACTIVE user on the VM.
+#!/bin/bash
+
+#backup home dir
+tar -zcvf /root/backup.gz /Users/$1/*
+
+## hardkill any of proccess of user "TEST1"
+kill -9 $(ps -fp $(pgrep -u $1) | grep $1 | awk '{print $2}' | tr '\n' ' ' | sed 's/.$/\n/')
+
+#delete scheduled tasks
+crontab -r -u $1
+
+#delete user
+userdel -r $1
+
+### userdel --force cafe_fixer  ## dangerous but working command

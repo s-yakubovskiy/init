@@ -1,0 +1,12 @@
+# 2. What command can you use to rename your system?
+
+# rename system = change hostname
+
+# hostnamectl set-hostname <your name>
+
+hostnamectl
+
+# or like that 
+# hostname new-name
+# echo "new-name" >> /etc/hostname
+# echo "127.0.1.1  new-name" >> /etc/hosts

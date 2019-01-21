@@ -1,0 +1,6 @@
+# Name the command that find, in real time, currently running processes
+
+ps -a
+
+# ps | grep <name>
+# ps -la

@@ -1,0 +1,1 @@
+ping -c 2 $(ifconfig | grep broadcast | cut -d ' ' -f 6) | awk '{print $4}' | sed 's/://g' | sed -e '$d' | sed -e '$d' | sed -e '$d' | sed -e '$d' | sed -e '1d'

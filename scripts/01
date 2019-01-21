@@ -1,0 +1,4 @@
+# 1. Write a script which displays only the login, UID and Path of each entry of the
+/etc/passwd file.
+
+cat /etc/passwd | awk -F: '{print  "\033[0m", "username:", "\033[0;31m"$1,"\033[0m" "  UID:", "\033[0;31m"$3,"\033[0m","  path:", "\033[0;31m"$6}'
